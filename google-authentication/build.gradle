@@ -2,9 +2,9 @@ group 'com.codesanook.sample.googleauthentication'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'application'
 sourceCompatibility = 1.5
 
+apply plugin: 'application'
 mainClassName = "com.codesanook.sample.googleauthentication.Program"
 
 repositories {

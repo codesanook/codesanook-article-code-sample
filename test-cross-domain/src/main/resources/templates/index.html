@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>index</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="/js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="/js/angular-1.4.8/angular.min.js"></script>
+    <script type="text/javascript" src="/js/sprintf.js"></script>
+    <script type="text/javascript">
+        var app = angular.module('codesanookSample', []);
+    </script>
+    <script type="text/javascript" src="/js/angular-controllers/indexController.js"></script>
+</head>
+<body ng-app="codesanookSample">
+<div ng-controller="indexController">
+
+    index
+    <input type="button" value="test" ng-click="testCrossDomain()"/>
+</div>
+</body>
+</html>
